@@ -13,12 +13,12 @@
 [submodule "lib/normalize-less"]
 	path = lib/normalize-less
 	url = https://github.com/reitermarkus/normalize.less.git
-[submodule "lib/angular"]
-	path = lib/angular
-	url = git@github.com:angular/bower-angular.git
 [submodule "lib/babel"]
 	path = lib/babel
 	url = https://github.com/zce/babel.git
 [submodule "lib/angular-sanitize"]
 	path = lib/angular-sanitize
 	url = https://github.com/angular/bower-angular-sanitize.git
+[submodule "lib/angular"]
+	path = lib/angular
+	url = https://github.com/angular/bower-angular.git
