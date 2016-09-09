@@ -1,0 +1,27 @@
+[submodule "lib/requirejs-babel"]
+	path = lib/requirejs-babel
+	url = https://github.com/mikach/requirejs-babel.git
+[submodule "lib/requirejs"]
+	path = lib/requirejs
+	url = https://github.com/requirejs/requirejs-bower.git
+[submodule "lib/requirejs-text"]
+	path = lib/requirejs-text
+	url = https://github.com/requirejs/text.git
+[submodule "lib/require-less"]
+	path = lib/require-less
+	url = https://github.com/yetnoidea/require-less.git
+[submodule "lib/normalize-less"]
+	path = lib/normalize-less
+	url = https://github.com/reitermarkus/normalize.less.git
+[submodule "lib/babel"]
+	path = lib/babel
+	url = https://github.com/zce/babel.git
+[submodule "lib/angular-sanitize"]
+	path = lib/angular-sanitize
+	url = https://github.com/angular/bower-angular-sanitize.git
+[submodule "lib/angular"]
+	path = lib/angular
+	url = https://github.com/angular/bower-angular.git
+[submodule "lib/requirejs-plugins"]
+	path = lib/requirejs-plugins
+	url = https://github.com/millermedeiros/requirejs-plugins.git

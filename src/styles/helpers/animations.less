@@ -1,0 +1,25 @@
+.ever-rotate(@period) {
+    animation: ever-rotate @period infinite linear;
+
+    @keyframes ever-rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+.fade-in-with-highlights(@hightlights, @duration: 1s) {
+    animation: fade-in  @duration ease-in;
+
+    @keyframes fade-in {
+        0% {
+            background: @hightlights;
+        }
+        100% {
+            background: transparent;
+        }
+    }
+}

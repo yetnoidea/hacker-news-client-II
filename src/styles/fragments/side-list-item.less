@@ -1,0 +1,81 @@
+@import "../helpers/utils";
+@import "../helpers/animations";
+
+> li.story-brief {
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px rgba(204,204,204,0.3) solid;
+
+    > a.hot-area {
+        display: flex;
+
+        > div.brief {
+            box-sizing: border-box;
+            width: 330px;
+            padding: 10px 15px;
+            flex: none;
+
+            .fade-in-with-highlights(rgba(255, 102, 0, 0.6));
+
+            > h3 {
+                margin: 0;
+                height: 1.5em;
+                line-height: 1.5em;
+                font-weight: normal;
+                font-size:16px;
+                .ellipsis;
+            }
+
+            > span {
+                color: rgba(85, 85, 85, 0.6);
+                font-weight: 300;
+                font-size: 12px;
+
+                &.author {
+                    padding-right:10px;
+                }
+
+                &.url {
+                    display: block;
+                    height: 1.5em;
+                    line-height: 1.5em;
+                    .ellipsis;
+                }
+            }
+        }
+
+        > div.comments {
+            box-sizing: border-box;
+            flex: 1 1 0;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+
+            background: rgb(252, 249, 247);
+
+            .fade-in-with-highlights(rgba(255, 102, 0, 1));
+
+            > span.icon {
+                width: 30px;
+                margin: 7.5px auto;
+
+                font-size: 12px;
+                text-align: center;
+
+                &.descendants {
+                    border-radius: 50%;
+                    color: rgb(255, 102, 0);
+                    background: rgb(255, 240, 230);
+
+                }
+
+                &.score {
+                    bottom: 12px;
+                    background: rgba(0, 0, 0, 0.03);
+
+                }
+            }
+        }
+    }
+}
